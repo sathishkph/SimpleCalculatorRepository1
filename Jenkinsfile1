@@ -23,14 +23,14 @@ pipeline {
              }
            }steps
           {
-            echo "hello"
+            echo 'hello'
           }
         }
       stage('Four'){
         parallel {
           stage('Unit Test'){
             steps{
-              echo "Running the unit testcases...."
+              echo 'Running the unit testcases....'
             }
           }
           stage('Integration Test'){
@@ -41,7 +41,7 @@ pipeline {
               }
             }
           steps{
-              echo "Running the Integration  testcases...."
+              echo 'Running the Integration  testcases....'
             }   
          
     }
