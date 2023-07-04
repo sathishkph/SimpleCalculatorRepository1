@@ -17,12 +17,12 @@ pipeline {
 }
         }
         stage('Three') {
-           when{
-             not{
+           when {
+             not {
                branch "master"
              }
-           }steps
-          {
+           }
+steps           {
             echo 'hello'
           }
         }
