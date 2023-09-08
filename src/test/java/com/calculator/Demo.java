@@ -13,7 +13,7 @@ class Demo {
 	   public void testForAdd()
 	   {
 	        int x=obj.add(4, 5);
-	       assertEquals(9,x);
+	       assertEquals(8,x);
 	    }
 	    
 	    @Test
